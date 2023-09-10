@@ -1,0 +1,27 @@
+<!-- sidebar.html -->
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">Students</a>
+    <a href="#">Courses</a>
+    <a href="/logout">Logout</a> 
+</div>
+
+
+<script>
+
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+    
+        // Add this function to close the sidebar by default
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    
+        // Close the sidebar when the page loads
+        closeNav();
+
+    
+</script>
